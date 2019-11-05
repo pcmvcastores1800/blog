@@ -1,15 +1,104 @@
-<<<<<<< HEAD
+
+<!DOCTYPE html>
 <html>
   <head>
         <title></title>
         <link rel="stylesheet" href="css/estilos.css" />
+        <style>
+                *{
+                  padding: 0; 
+                  margin: 0; 
+                  box-sizing: 
+                  border-box;}
+                body{
+                  height: 900px;
+                }
+                header {
+                  background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+                  text-align: center;
+                  width: 100%;
+                  height: auto;
+                  background-size: cover;
+                  background-attachment: fixed;
+                  position: relative;
+                  overflow: hidden;
+                  border-radius: 0 0 85% 85% / 30%;
+                }
+                header .overlay{
+                  width: 100%;
+                  height: 100%;
+                  padding: 50px;
+                  color: #000000;
+                  text-shadow: 1px 1px 1px #333;
+                  background-image: linear-gradient( 135deg, #C9C2E4 10%, #ABF8AE 100%);
+                  
+                }
+                h1 {
+                  font-family: 'Dancing Script', cursive;
+                  font-size: 80px;
+                  margin-bottom: 30px;
+                }
+                h3, p {
+                  font-family: 'Open Sans', sans-serif;
+                  margin-bottom: 30px;
+                }    
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    width: 250px;
+                    background-color: #f1f1f1;
+                    border: 1px solid #555;
+                }
+                li a {
+                  display: block;
+                  color: #000;
+                  padding: 8px 16px;
+                  text-decoration: none;
+                }
+                li {
+                  text-align: center;
+                  border-bottom: 1px solid #555;
+                }
+                li:last-child {
+                  border-bottom: none;
+                }
+                li a.active {
+                  background-color: #4CAF50;
+                  color: white;
+                }
+                li a:hover:not(.active) {
+                  background-color: #555;
+                  color: white;
+                }
+              </style>
     </head>
     <body>
+        <header>
+                <div class="overlay">
+                    <h1>SIMPLEMENTE EL MEJOR</h1>
+                    <h3>Header</h3>       
+                    <br>
+                </div>
+        </header>
+        <div id="menu">
+            <ul>
+                    <h2>Barra de navegacion</h2>
+                    <li><a class="active" href="#home">Casa</a></li>
+                    <li><a href="#news">Noticias</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#about">Acerca de</a></li>
+                </ul>
+    </div>  
   <div id="container">
         <div id="cabecera">
             Curso de GitHub (Tu puedes )
             </div>
+
+
+
             <div id="parrafo"> 
+
                 <p>GitHub es un sistema de gestión de proyectos y control de versiones de código, así como una plataforma de red social diseñada para desarrolladores. ¿Pero para qué se usa GitHub? Bueno, en general, permite trabajar en colaboración con otras personas de todo el mundo, planificar proyectos y realizar un seguimiento del trabajo.</p>
            <p>¿Qué es un sistema de control de versiones?
             Cuando los desarrolladores hacen un nuevo proyecto, siempre continúan haciéndole modificaciones al código. Incluso después de la puesta en marcha de los proyectos, todavía necesitan actualizar las versiones, corregir errores, agregar nuevas funciones, etc.
@@ -41,95 +130,4 @@
     </div>
     </body>
 </html>
-=======
-<!DOCTYPE html>
-  <html>
-    <head>    
-      <style>
-        *{
-          padding: 0; 
-          margin: 0; 
-          box-sizing: 
-          border-box;}
-        body{
-          height: 900px;
-        }
-        header {
-          background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
-          text-align: center;
-          width: 100%;
-          height: auto;
-          background-size: cover;
-          background-attachment: fixed;
-          position: relative;
-          overflow: hidden;
-          border-radius: 0 0 85% 85% / 30%;
-        }
-        header .overlay{
-          width: 100%;
-          height: 100%;
-          padding: 50px;
-          color: #000000;
-          text-shadow: 1px 1px 1px #333;
-          background-image: linear-gradient( 135deg, #C9C2E4 10%, #ABF8AE 100%);
-          
-        }
-        h1 {
-          font-family: 'Dancing Script', cursive;
-          font-size: 80px;
-          margin-bottom: 30px;
-        }
-        h3, p {
-          font-family: 'Open Sans', sans-serif;
-          margin-bottom: 30px;
-        }    
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            width: 200px;
-            background-color: #f1f1f1;
-            border: 1px solid #555;
-        }
-        li a {
-          display: block;
-          color: #000;
-          padding: 8px 16px;
-          text-decoration: none;
-        }
-        li {
-          text-align: center;
-          border-bottom: 1px solid #555;
-        }
-        li:last-child {
-          border-bottom: none;
-        }
-        li a.active {
-          background-color: #4CAF50;
-          color: white;
-        }
-        li a:hover:not(.active) {
-          background-color: #555;
-          color: white;
-        }
-      </style>
-  </head>
-  <body>
-    <header>
-      <div class="overlay">
-        <h1>SIMPLEMENTE EL MEJOR</h1>
-        <h3>Header</h3>       
-        <br>
-      </div>
-    </header>
-    <ul>
-      <h2>Barra de navegacion</h2>
-        <li><a class="active" href="#home">Casa</a></li>
-        <li><a href="#news">Noticias</a></li>
-        <li><a href="#contact">Contacto</a></li>
-        <li><a href="#about">Acerca de</a></li>
-    </ul>
 
-  </body>
-</html>
->>>>>>> 0fd4337f4d35775fd5bafe744f62d5eb21b9809f
